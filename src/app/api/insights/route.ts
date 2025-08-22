@@ -1,6 +1,6 @@
 // src/app/api/insights/route.ts
 import { NextResponse } from "next/server";
-import { haversineKm } from "@/lib/geo";
+import { haversineKm } from "../../lib/geo";
 
 export const revalidate = 60;
 export const runtime = "nodejs"; // ensure Node runtime on Vercel
