@@ -1,6 +1,6 @@
 // app/api/fires/route.ts
 import { NextResponse } from "next/server";
-import Papa from "papaparse";
+import * as Papa from "papaparse";
 
 
 export const revalidate = 300; // 5 min
